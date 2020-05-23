@@ -1,0 +1,116 @@
+body {
+    margin: 0px;
+    font-family: lucida console;
+}
+
+
+.header {
+    background-color: #FE82CB;
+    /* background-color: yellow; */
+    color: 	whitesmoke;
+    padding-top: 20px;
+    font-family: lucida console;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    height: 60px;
+}
+
+.header2 {
+    background-color:#FE82CB;
+    color: 	white;
+    padding-top: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 60px;
+    width: inherit;
+}
+
+.tuneButtons {
+    /* margin: 50px 50px; */
+    height: 40px;
+    width: 150px;
+    align-items: auto;    
+    /* border: 2.5px solid grey; */
+    /* padding: 5px 5px 40px 5px; */
+    padding-bottom: 20x;
+    margin: 20px 10px 50px 20px;
+    font-size: 12px;
+    border-radius: 10px;
+    float: left;
+    background-color:#51B12C;
+    color: white;
+}
+
+.tuneSheet {
+    align-self: center;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    /* margin: 50px 50px; */
+    height: 230px;
+    width: 200px;
+    margin: 20px 20px 20px 20px;
+    border: 5px solid #8A838B;
+    padding-left: 20px;
+    align-items: auto;    
+}
+
+.partition {
+    background-color: #FF3401;
+}
+
+.audio{
+    /* margin: 50px 50px; */
+    height: 125px;
+    width: 320px;
+    align-items: auto;    
+    border: 2.5px solid #8A838B;
+    margin: 20px 20px;
+    padding: 0px 0px 0px 10px;
+    border-radius: 10px; 
+}
+
+.colour {
+    height: 150px;
+    width: 150px;
+}
+
+.tuneSign {   
+    object-fit: cover;
+    margin-left: 20px;
+    margin-right: 10px;
+    display: block;
+}
+
+/* .column {
+    margin: 0px 50px;
+    width: 600px; 
+    margin: auto;
+    border: 5px solid #8A838B;
+    padding: 0px 50px;    
+} */
+
+h1 {
+    text-align: center;    
+}
+
+.subHeader {
+    text-align: center;
+    background-color:#51B12C;
+    color: whitesmoke;
+    padding: 10px 0px;
+    margin-top: 20px;
+
+}
+
+h3 {
+    text-align: center;
+}
+
+.footer {
+    margin: 50px 0px 20px 20px;
+}
