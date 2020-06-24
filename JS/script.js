@@ -85,7 +85,8 @@ const data = [
     },
 ]
 
-// console.log(data);
+console.log(data[1].samples);
+
 
 
 function renderPage(pageIndex) {
@@ -105,7 +106,7 @@ function renderPage(pageIndex) {
     const mp3Element = document.createElement('div')
     mp3Element.innerHTML = `<h3>${element.title}</h3>
                             <audio controls loop class="mp3Element">                                
-                                <source src=${element.link}>
+                                <source src= ${element.link}>
                             </audio>`                                
     mp3Container.appendChild(mp3Element)
     mp3Element.className = 'mp3Element'
