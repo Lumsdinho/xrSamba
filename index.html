@@ -1,56 +1,141 @@
 <!DOCTYPE html>
 <html>
     <Head>
-        <title>XR Brighton Samba</title>
-        <link href="CSS\style.css" rel = 'stylesheet'>
+        <title>Samba Tunes</title>
+        <link href="\CSS\style.css" rel = 'stylesheet'>
     </Head>
     <body>
+
+
+        <!----------------------Page Header------------------------>
+
         <Header>
-            <h1 class="header">XR Brighton Samba</h1>
+            <div >
+                <h1 class="header2" id='title'></h1>
+            </div>  
         </Header>
-        <main>     
 
-            <h2 class = 'subHeader'>Tunes</h2>
+        <!---------------------------------------------------------->
 
-            <div class="row">
-                
-                <div class="column">
-                    <h3>AFOXE</h3>
-                    <a href="HTML\Afoxe.html"><img class = "tuneSign" src="Images\afoxe-150x150.jpg" alt="fingers forming circles around eyes mimicking glasses"></a>
-                </div> <!--column 2-->            
+        <main>
 
-                <div class="column">
-                    <h3>FUNK</h3>
-                    <a href="HTML\Funk.html"><img class = "tuneSign" src="Images\Funk-small-150x150.jpg" alt="fingers forming circles around eyes mimicking glasses"></a>
-                </div> <!--column 2-->
+        <!----------------------Tune Buttons------------------------>
 
-                <div class="column">
-                    <h3>HEDGEHOG</h3>
-                    <a href="HTML\Hedgehog.html"><img class = "tuneSign" src="Images\hedgehog-150x150.jpg" alt=""></a>
-                </div> <!--column 3-->
+        <div id='tuneButtonsRow'></div>         
 
-            </div> <!--row-->
+        <!----------------------Tune sheet------------------------>
+
+        <div>
+            <img id='diagram'>
+        </div>
+
+        <!-------------------------tuneRow-------------------------->
+
             
-            <div class = "row">
-            
-                <div class="column">
-                    <h3>KARLA SHNIKOV</h3>
-                    <a href="HTML\Kalashnikov.html"><img class = "tuneSign" src="Images\kalashnikov-150x150.jpg" alt=""></a>
-                </div> <!--column 3-->
+        
+        <div>
+            <p id='test'></p>
+        </div>
+        
+        <div class="tuneRow" id=tuneRow>
 
-                <div class="column">
-                    <h3>DRUM & BASS</h3>
-                    <a href="HTML\Drum&Bass.html"><img class = "tuneSign" src="Images\dj-150x150.jpg" alt=""></a>
-                </div> <!--column 3-->
+                 <div class="audio">
+                    <h3>Main tune</h3>
+                    <audio controls loop>
+                        <source src="\MP3\Afoxe - Tune.mp3" />
+                    </audio>
+                </div>
 
-                <div class="column">
-                    <h3>SAMBA REGGAE</h3>
-                    <a href="HTML\SambaReggae.html"><img class = "tuneSign" src="Images\samba_reggae-150x150.jpg" alt=""></a>
-                </div> <!--column 3-->
-  
+                <!-- <div class="audio">
+                    <h3>Tune (with breaks)</h3>
+                    <audio controls loop>
+                        <source src="\MP3\Afoxe - TuneWithBreaks.mp3" />
+                    </audio>
+                </div>
+
+                <div class="audio">
+                    <h3>Break 1</h3>
+                    <audio controls loop>
+                        <source src="\MP3\Afoxe - Break 1.mp3" />
+                    </audio>
+                </div> -->
+
             </div>
 
+        <!-------------------------drumRow-------------------------->
+
+            <!-- <div class="drumRow">
+
+                <div class="audio">
+                    <h3>Low Surdo</h3>
+                    <audio controls loop>
+                        <source src="\MP3\Afoxe - LowSurdo.mp3" />
+                    </audio>
+                </div>
+
+                <div class="audio">
+                    <h3>Mid Surdo</h3>
+                    <audio controls loop>
+                        <source src="\MP3\Afoxe - MidSurdo.mp3" />
+                    </audio>
+                </div>
+
+                <div class="audio">
+                    <h3>High Surdo</h3>
+                    <audio controls loop>
+                        <source src="\MP3\Afoxe - HighSurdo.mp3" />
+                    </audio>
+                </div>
+
+            </div> -->
+
+        <!-------------------------drumRow-------------------------->
+
+        <!-- <div class="drumRow">
+
+            <div class="audio">
+                <h3>Repi</h3>
+                <audio controls loop>
+                    <source src="\MP3\Afoxe - Repi.mp3" />
+                </audio>
+            </div>
+
+            <div class="audio">
+                <h3>Snare</h3>
+                <audio controls loop>
+                    <source src="\MP3\Afoxe - Snare.mp3" />
+                </audio>
+            </div>
+
+        </div> -->
+
+        <!-------------------------drumRow-------------------------->
+
+        <!-- <div class="drumRow">
+
+            <div class="audio">
+                <h3>Tambourim</h3>
+                <audio controls loop>
+                    <source src="\MP3\Afoxe - Tam.mp3" />
+                </audio>
+            </div>
+
+            <div class="audio">
+                <h3>Agogo</h3>
+                <audio controls loop>
+                    <source src="\MP3\Afoxe - Agogo.mp3" />
+                </audio>
+            </div>
+
+        </div> -->
+
+        <!-------------------------------------------------------->
+   
+        
+
         </main>
-        <footer><p class="footer">*</p></footer>
+        
+        <footer><p class="footer">*Thanks to Rhythms of Resistance for all of the content on this page</p></footer>
+        <script src="\JS\script.js"></script>
     </body>    
 </html>
