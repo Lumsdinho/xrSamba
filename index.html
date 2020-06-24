@@ -1,141 +1,50 @@
 <!DOCTYPE html>
-<html>
-    <Head>
-        <title>Samba Tunes</title>
-        <link href="\CSS\style.css" rel = 'stylesheet'>
-    </Head>
-    <body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samba Tunes</title>
+    <link rel="stylesheet" href="CSS\style.css">
+</head>
+<body>
+    <div class="main-grid">
+        <header>
+            <h1 id="mainHeader">BRIGHTON XR SAMBA</h1> 
+        </header>
+        
+            <nav id='navBar'></nav>
 
-
-        <!----------------------Page Header------------------------>
-
-        <Header>
-            <div >
-                <h1 class="header2" id='title'></h1>
-            </div>  
-        </Header>
-
-        <!---------------------------------------------------------->
-
-        <main>
-
-        <!----------------------Tune Buttons------------------------>
-
-        <div id='tuneButtonsRow'></div>         
-
-        <!----------------------Tune sheet------------------------>
-
-        <div>
-            <img id='diagram'>
-        </div>
-
-        <!-------------------------tuneRow-------------------------->
-
+            <h2 id='pageHeader'></h2>
+        
             
-        
-        <div>
-            <p id='test'></p>
-        </div>
-        
-        <div class="tuneRow" id=tuneRow>
 
-                 <div class="audio">
-                    <h3>Main tune</h3>
-                    <audio controls loop>
-                        <source src="\MP3\Afoxe - Tune.mp3" />
-                    </audio>
-                </div>
-
-                <!-- <div class="audio">
-                    <h3>Tune (with breaks)</h3>
-                    <audio controls loop>
-                        <source src="\MP3\Afoxe - TuneWithBreaks.mp3" />
-                    </audio>
-                </div>
-
-                <div class="audio">
-                    <h3>Break 1</h3>
-                    <audio controls loop>
-                        <source src="\MP3\Afoxe - Break 1.mp3" />
-                    </audio>
-                </div> -->
-
-            </div>
-
-        <!-------------------------drumRow-------------------------->
-
-            <!-- <div class="drumRow">
-
-                <div class="audio">
-                    <h3>Low Surdo</h3>
-                    <audio controls loop>
-                        <source src="\MP3\Afoxe - LowSurdo.mp3" />
-                    </audio>
-                </div>
-
-                <div class="audio">
-                    <h3>Mid Surdo</h3>
-                    <audio controls loop>
-                        <source src="\MP3\Afoxe - MidSurdo.mp3" />
-                    </audio>
-                </div>
-
-                <div class="audio">
-                    <h3>High Surdo</h3>
-                    <audio controls loop>
-                        <source src="\MP3\Afoxe - HighSurdo.mp3" />
-                    </audio>
-                </div>
-
-            </div> -->
-
-        <!-------------------------drumRow-------------------------->
-
-        <!-- <div class="drumRow">
-
-            <div class="audio">
-                <h3>Repi</h3>
-                <audio controls loop>
-                    <source src="\MP3\Afoxe - Repi.mp3" />
-                </audio>
-            </div>
-
-            <div class="audio">
-                <h3>Snare</h3>
-                <audio controls loop>
-                    <source src="\MP3\Afoxe - Snare.mp3" />
-                </audio>
-            </div>
-
-        </div> -->
-
-        <!-------------------------drumRow-------------------------->
-
-        <!-- <div class="drumRow">
-
-            <div class="audio">
-                <h3>Tambourim</h3>
-                <audio controls loop>
-                    <source src="\MP3\Afoxe - Tam.mp3" />
-                </audio>
-            </div>
-
-            <div class="audio">
-                <h3>Agogo</h3>
-                <audio controls loop>
-                    <source src="\MP3\Afoxe - Agogo.mp3" />
-                </audio>
-            </div>
-
-        </div> -->
-
-        <!-------------------------------------------------------->
-   
         
 
+        <main id='main'>
+
+            <p id='text'></p>
+
+            <img id='image' class="primaryImage">
+
+            <div id="mp3Container" class='mp3Container'>
+                <!-- <audio controls loop class="mp3Element">
+                    <h3>Star Wars extended</h3>
+                    <source src='MP3/Special Breaks - Star Wars Extended.mp3'>
+                </audio> -->
+            </div>
+
+
+        <script src="JS\script.js"></script>
         </main>
         
-        <footer><p class="footer">*Thanks to Rhythms of Resistance for all of the content on this page</p></footer>
-        <script src="\JS\script.js"></script>
-    </body>    
+        <footer>
+            <div class="socialLinksContainer"> 
+                <a href="https://www.instagram.com/extinctionrebellionbrighton/?hl=en" class="socialLinks" aria-label=""><img src="Images\iconfinder_Intsagram_194923.png" alt=""></a>
+                <a href="https://www.facebook.com/xrbrightonsamba/" class="socialLinks" aria-label=""><img src="Images\iconfinder_Facebook_194929.png" alt=""></a>
+                <a href="https://twitter.com/xrbrighton?lang=en" class="socialLinks" aria-label=""><img src="Images\iconfinder_Twitter_194909.png" alt=""></a>
+            </div>            
+        </footer>
+    </div>
+        
+</body>
 </html>
