@@ -10,20 +10,21 @@ body {
     color: 	whitesmoke;
     padding-top: 20px;
     font-family: lucida console;
-    margin-top: 0px;
-    margin-bottom: 20px;
+    /* margin-top: 0px;
+    margin-bottom: 20px; */
     height: 60px;
+    margin: 0px;
 }
 
 .header2 {
     background-color:#FE82CB;
     color: 	white;
     padding-top: 20px;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin: 0px;
     height: 60px;
-    width: inherit;
+    /* text-align: center; */
 }
+
 
 .tuneButtons {
     /* margin: 50px 50px; */
@@ -36,27 +37,55 @@ body {
     margin: 20px 10px 50px 20px;
     font-size: 12px;
     border-radius: 10px;
-    float: left;
     background-color:#51B12C;
     color: white;
+    cursor: pointer;
+    transition: all 0.5s ease-in;
+}
+
+.tuneButtons:hover {
+    opacity: 0.7;
+    transform: scale(0.98);
 }
 
 .tuneSheet {
     align-self: center;
 }
 
-.row {
+/*
+.songLinkRow { 
     display: flex;
+    justify-content: left;
+    /* margin-bottom: 50px; 
+}
+*/
+
+.tuneRow {
+    display: flex;
+    justify-content: space-around;
+    /* margin-bottom: 50px; */
+    background-color: rgb(224, 219, 219);
+}
+
+.drumRow {
+    display: flex;
+    justify-content: space-around;
+}
+
+.blockRow {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
 }
 
 .column {
     /* margin: 50px 50px; */
     height: 230px;
     width: 200px;
-    margin: 20px 20px 20px 20px;
+    /* margin: 20px 20px 20px 20px; */
     border: 5px solid #8A838B;
-    padding-left: 20px;
-    align-items: auto;    
+    /* padding-left: 20px; */
+    /* align-items: auto;     */
 }
 
 .partition {
